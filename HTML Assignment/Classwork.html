@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Princess+Sofia
+
+
+
+
+&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+
+<style>
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+#titlehead{
+    font-family: 'Pacifico',serif;
+}
+#wallpaper{
+    background-image: linear-gradient(115deg, #1c1c1ccd, #1e1d1de1), url("How\ to\ Save\ Your\ Own\ Life\ in\ 12\ Scary\ Emergencies.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 1em;
+    margin: 0px;
+    
+}
+.outer-form{
+    width:825px;
+    height: fit-content;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    margin: 6rem auto;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', serif;
+    
+
+}
+.form-pic{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0.9;
+    max-width: 345px;
+
+}
+.form-side{
+    padding: 20px;
+    width:100%;
+}
+.header{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.first-part{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+#DoB{
+    margin: 0px 20px 10px 5px;
+}
+
+
+.box{
+    width: 220px;
+    height: 25px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.first-part input{
+    display: block ;
+}
+.student-pic{
+    width: 120px;
+    height: auto;
+    margin-left: 50px;
+}
+.gender{
+    margin: 0px 5px 0px 0px;
+    
+}
+#female{
+    margin-left: 5px;
+}
+#male{
+    margin-left: 5px;
+}
+.second1 p{
+    display: inline;
+}
+.select-part{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#selection{
+    margin: 0px 0px 10px 10px;
+}
+.other-part{
+    width: 200px;
+    height: 70px;
+    
+}
+.smallbox{
+    width: 120px;
+    height: 25px;
+}
+#room{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.thirdpart{
+    width:400px;
+    
+    
+}
+.form-body{
+    width: 100%;
+    height: 100%;
+}
+.submit{
+    display:block;
+    margin: auto;
+}
+.thirdpart input{
+    display: block;
+}
+.correction{
+    display:flex;
+    flex-direction: column-reverse;
+}
+</style>
+    <title>Archery Club</title>
+    <link rel="icon" type="image" href="pngegg (38).png">
+</head>
+<body>
+<div id="wallpaper">
+<!-- background
+card
+form -->
+<div class="outer-form">
+<img class="form-pic" src="download (3).jpeg">
+<div class="form-side">
+<div class="header">
+    <h1 id="titlehead" ><a id="changecolor" href="#">Archery Club</a></h1>
+    <h3>We look forward to having you</h3>
+</div>
+
+<div class="content">
+<form id="form-body" action="#">
+<div class="first-part">
+    <div class="namebox">
+<label for="firstname">First Name</label><br>
+    <input id="firstname" class="box" type="text" required>
+    <label for="lastname">Last Name</label>
+    <input id="lastname" class="box" type="text" required>
+    <label for="matric">Matric Number</label>
+    <input id="matric" class="box" type="text" required>
+    </div>
+<div class="picbox">
+<img class="student-pic" src="frame.png" alt="Student Image">
+</div>
+
+</div>
+<div class="correction">
+<div class="thirdpart">
+    <label for="experience">Any Experience?</label>
+    <textarea id="experience" cols="50px"></textarea>
+    <label for="expectation">Expectations</label><br>
+    <textarea id="expectation" placeholder="Enter your expectations here" cols="50px"></textarea>
+    
+    <input class="submit" type="submit">
+    </div>
+<div class="second-part">
+    <div class="second1">
+        <label for="DoB">Date of Birth</label>
+        <input id="DoB" class="smallbox" type="date" required>
+        <p>Gender</p>
+        <label for="male"><input id="male" class="gender" type="radio" name="gender" required>Male</label>
+        <label for="female"><input id="female" class="gender" type="radio" name="gender">Female</label>
+        <label for="email">Email</label><br>
+        <input type="email" class="box" required><br>
+        <label for="phone">Phone Number</label><br>
+        <input type="tel" class="box" required>
+        </div>
+        <div class="select-part">
+         <div class="other-part">
+            <label for="room">Room:</label>
+                <input id="room" placeholder="Room Number" class="smallbox" type="text" required>
+            <label for="level">Level:</label>
+            <select id="level" class="smallbox" required>
+                <option disabled selected value>Select level</option>
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value="300">300</option>
+                <option value="400">400</option>
+                <option value="500">500</option>
+            </select>
+         </div> 
+            
+
+        <div id="selectionpart">
+            <label id="select-id" for="selection">Hall</label>
+                <select id="selection" class="smallbox" required>
+                    <option disabled selected value>Select your hall</option>
+                    <option value="Peter">Peter</option>
+                    <option value="Paul">Paul</option>
+                    <option value="John">John</option>
+                    <option value="Joseph">Joseph</option>
+                    <option value="Daniel">Daniel</option>
+                    <option value="Esther">Esther</option>
+                    <option value="Mary">Mary</option>
+                    <option value="Lydia">Lydia</option>
+                    <option value="Deborah">Deborah</option>
+                    <option value="Dorcas">Dorcas</option>
+                </select><br>
+                <label  for="college">College</label>
+                <select id="college" class="smallbox" required>
+                    <option disabled selected value>Select College</option>
+                    <option value="COE">COE</option>
+                    <option value="CST">CST</option>
+                    <option value="CMSS">CMSS</option>
+                    <option value="CLDS">CLDS</option>
+                   
+        </div>
+       
+       
+        
+        
+        </div>
+   
+    
+
+
+
+</div>
+</div>
+
+</form>
+</div>
+</div>
+</div>
+
+
+    
+</body>
+<script src="jquery-3.7.1.slim.js" type="text/javascript">
+window.ready(callback);
+function callback(){
+    $('#changecolor').click(function(){
+    ('.outer-form').css('background', 'yellow')
+});
+}
+
+
+</script>
+</html>
